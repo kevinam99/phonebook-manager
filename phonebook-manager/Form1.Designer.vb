@@ -33,7 +33,7 @@ Partial Class Phonebook
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Label1.Location = New System.Drawing.Point(68, 228)
+        Me.Label1.Location = New System.Drawing.Point(75, 235)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(699, 44)
         Me.Label1.TabIndex = 0
@@ -44,7 +44,7 @@ Partial Class Phonebook
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(983, 520)
+        Me.ClientSize = New System.Drawing.Size(844, 520)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.SystemColors.Control
