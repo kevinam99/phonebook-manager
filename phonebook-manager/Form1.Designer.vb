@@ -23,36 +23,36 @@ Partial Class Phonebook
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Phonebook))
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Welcome = New System.Windows.Forms.Label()
+        Me.Subtitle = New System.Windows.Forms.Label()
         Me.GitHub = New System.Windows.Forms.LinkLabel()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.AvailableGitHub = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Label1
+        'Welcome
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Label1.Location = New System.Drawing.Point(75, 235)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(699, 44)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Welcome to the Phonebook Manager"
+        Me.Welcome.AutoSize = True
+        Me.Welcome.BackColor = System.Drawing.Color.Transparent
+        Me.Welcome.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Welcome.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Welcome.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Welcome.Location = New System.Drawing.Point(75, 235)
+        Me.Welcome.Name = "Welcome"
+        Me.Welcome.Size = New System.Drawing.Size(699, 44)
+        Me.Welcome.TabIndex = 0
+        Me.Welcome.Text = "Welcome to the Phonebook Manager"
         '
-        'Label2
+        'Subtitle
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(352, 309)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(426, 25)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "- An Open Source Project by Kevin Mathew"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Subtitle.AutoSize = True
+        Me.Subtitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Subtitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Subtitle.Location = New System.Drawing.Point(352, 309)
+        Me.Subtitle.Name = "Subtitle"
+        Me.Subtitle.Size = New System.Drawing.Size(426, 25)
+        Me.Subtitle.TabIndex = 1
+        Me.Subtitle.Text = "- An Open Source Project by Kevin Mathew"
+        Me.Subtitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GitHub
         '
@@ -71,18 +71,18 @@ Partial Class Phonebook
         Me.GitHub.TabStop = True
         Me.GitHub.Text = "GitHub"
         '
-        'Label3
+        'AvailableGitHub
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.SystemColors.Control
-        Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(437, 354)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(131, 28)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Available on"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.AvailableGitHub.AutoSize = True
+        Me.AvailableGitHub.BackColor = System.Drawing.SystemColors.Control
+        Me.AvailableGitHub.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AvailableGitHub.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.AvailableGitHub.Location = New System.Drawing.Point(437, 354)
+        Me.AvailableGitHub.Name = "AvailableGitHub"
+        Me.AvailableGitHub.Size = New System.Drawing.Size(131, 28)
+        Me.AvailableGitHub.TabIndex = 3
+        Me.AvailableGitHub.Text = "Available on"
+        Me.AvailableGitHub.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Phonebook
         '
@@ -91,10 +91,10 @@ Partial Class Phonebook
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CausesValidation = False
         Me.ClientSize = New System.Drawing.Size(844, 520)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.AvailableGitHub)
         Me.Controls.Add(Me.GitHub)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Subtitle)
+        Me.Controls.Add(Me.Welcome)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.SystemColors.Control
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -106,8 +106,8 @@ Partial Class Phonebook
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
+    Friend WithEvents Welcome As Label
+    Friend WithEvents Subtitle As Label
     Friend WithEvents GitHub As LinkLabel
-    Friend WithEvents Label3 As Label
+    Friend WithEvents AvailableGitHub As Label
 End Class
