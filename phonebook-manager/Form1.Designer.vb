@@ -24,6 +24,9 @@ Partial Class Phonebook
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Phonebook))
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.GitHub = New System.Windows.Forms.LinkLabel()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -39,12 +42,58 @@ Partial Class Phonebook
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Welcome to the Phonebook Manager"
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(352, 309)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(426, 25)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "- An Open Source Project by Kevin Mathew"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'GitHub
+        '
+        Me.GitHub.ActiveLinkColor = System.Drawing.Color.Black
+        Me.GitHub.AutoSize = True
+        Me.GitHub.CausesValidation = False
+        Me.GitHub.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.GitHub.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GitHub.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.GitHub.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
+        Me.GitHub.LinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.GitHub.Location = New System.Drawing.Point(564, 354)
+        Me.GitHub.Name = "GitHub"
+        Me.GitHub.Size = New System.Drawing.Size(84, 28)
+        Me.GitHub.TabIndex = 2
+        Me.GitHub.TabStop = True
+        Me.GitHub.Text = "GitHub"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.SystemColors.Control
+        Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(437, 354)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(131, 28)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Available on"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Phonebook
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.CausesValidation = False
         Me.ClientSize = New System.Drawing.Size(844, 520)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.GitHub)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.SystemColors.Control
@@ -58,4 +107,7 @@ Partial Class Phonebook
     End Sub
 
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents GitHub As LinkLabel
+    Friend WithEvents Label3 As Label
 End Class
