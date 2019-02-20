@@ -47,7 +47,7 @@ Partial Class Phonebook
         Me.Subtitle.AutoSize = True
         Me.Subtitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Subtitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Subtitle.Location = New System.Drawing.Point(352, 309)
+        Me.Subtitle.Location = New System.Drawing.Point(348, 309)
         Me.Subtitle.Name = "Subtitle"
         Me.Subtitle.Size = New System.Drawing.Size(426, 25)
         Me.Subtitle.TabIndex = 1
@@ -64,7 +64,7 @@ Partial Class Phonebook
         Me.GitHub.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.GitHub.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.GitHub.LinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GitHub.Location = New System.Drawing.Point(564, 354)
+        Me.GitHub.Location = New System.Drawing.Point(690, 354)
         Me.GitHub.Name = "GitHub"
         Me.GitHub.Size = New System.Drawing.Size(84, 28)
         Me.GitHub.TabIndex = 2
@@ -77,7 +77,7 @@ Partial Class Phonebook
         Me.AvailableGitHub.BackColor = System.Drawing.SystemColors.Control
         Me.AvailableGitHub.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AvailableGitHub.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.AvailableGitHub.Location = New System.Drawing.Point(437, 354)
+        Me.AvailableGitHub.Location = New System.Drawing.Point(562, 354)
         Me.AvailableGitHub.Name = "AvailableGitHub"
         Me.AvailableGitHub.Size = New System.Drawing.Size(131, 28)
         Me.AvailableGitHub.TabIndex = 3
