@@ -47,11 +47,11 @@ Partial Class Phonebook
         Me.Subtitle.AutoSize = True
         Me.Subtitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Subtitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Subtitle.Location = New System.Drawing.Point(348, 309)
+        Me.Subtitle.Location = New System.Drawing.Point(431, 311)
         Me.Subtitle.Name = "Subtitle"
-        Me.Subtitle.Size = New System.Drawing.Size(426, 25)
+        Me.Subtitle.Size = New System.Drawing.Size(343, 25)
         Me.Subtitle.TabIndex = 1
-        Me.Subtitle.Text = "- An Open Source Project by Kevin Mathew"
+        Me.Subtitle.Text = "- A FOSS project by Kevin Mathew"
         Me.Subtitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GitHub
