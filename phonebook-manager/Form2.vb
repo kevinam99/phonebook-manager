@@ -11,4 +11,8 @@
     Private Sub OptionsScreen_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         SplashScreen.Close()
     End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Process.Start("https://github.com/kevinam99/phonebook-manager")
+    End Sub
 End Class
