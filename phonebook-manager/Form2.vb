@@ -23,7 +23,11 @@
     End Sub
 
     Private Sub Exit_Button2_Click(sender As Object, e As EventArgs) Handles Exit_Button2.Click
-        Me.Close()
+        If MsgBox("Do you really want to exit?", MsgBoxStyle.OkCancel) = MsgBoxStyle.OkCancel Then
+            Me.Close()
+        Else
+            Me.Show()
+        End If
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
