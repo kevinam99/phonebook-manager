@@ -12,7 +12,7 @@
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles GitHub.LinkClicked
-
+        Process.Start("https://github.com/kevinam99/phonebook-manager")
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles AvailableGitHub.Click
