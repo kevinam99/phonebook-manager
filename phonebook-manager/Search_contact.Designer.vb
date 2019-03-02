@@ -84,10 +84,11 @@ Partial Class Search_contact
         'SourceCode_LinkLabel1
         '
         Me.SourceCode_LinkLabel1.AutoSize = True
+        Me.SourceCode_LinkLabel1.BackColor = System.Drawing.Color.Transparent
         Me.SourceCode_LinkLabel1.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SourceCode_LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline
         Me.SourceCode_LinkLabel1.LinkColor = System.Drawing.Color.Blue
-        Me.SourceCode_LinkLabel1.Location = New System.Drawing.Point(520, 265)
+        Me.SourceCode_LinkLabel1.Location = New System.Drawing.Point(527, 302)
         Me.SourceCode_LinkLabel1.Name = "SourceCode_LinkLabel1"
         Me.SourceCode_LinkLabel1.Size = New System.Drawing.Size(84, 15)
         Me.SourceCode_LinkLabel1.TabIndex = 14
@@ -97,7 +98,7 @@ Partial Class Search_contact
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(241, 184)
+        Me.Button1.Location = New System.Drawing.Point(250, 184)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(149, 33)
         Me.Button1.TabIndex = 15
@@ -108,7 +109,9 @@ Partial Class Search_contact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(616, 289)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(623, 342)
         Me.ControlBox = False
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.SourceCode_LinkLabel1)
