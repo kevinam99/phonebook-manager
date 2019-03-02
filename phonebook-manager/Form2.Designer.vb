@@ -27,8 +27,8 @@ Partial Class OptionsScreen
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Exit_Button2 = New System.Windows.Forms.Button()
+        Me.SourceCode_LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.SuspendLayout()
         '
         'Label1
@@ -76,20 +76,6 @@ Partial Class OptionsScreen
         Me.Button4.Text = "Delete a contact"
         Me.Button4.UseVisualStyleBackColor = False
         '
-        'LinkLabel1
-        '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.LinkLabel1.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline
-        Me.LinkLabel1.LinkColor = System.Drawing.Color.Goldenrod
-        Me.LinkLabel1.Location = New System.Drawing.Point(407, 271)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(96, 18)
-        Me.LinkLabel1.TabIndex = 5
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "Source code"
-        '
         'Exit_Button2
         '
         Me.Exit_Button2.BackColor = System.Drawing.Color.Transparent
@@ -101,6 +87,20 @@ Partial Class OptionsScreen
         Me.Exit_Button2.Text = "Exit"
         Me.Exit_Button2.UseVisualStyleBackColor = False
         '
+        'SourceCode_LinkLabel1
+        '
+        Me.SourceCode_LinkLabel1.AutoSize = True
+        Me.SourceCode_LinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.SourceCode_LinkLabel1.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SourceCode_LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline
+        Me.SourceCode_LinkLabel1.LinkColor = System.Drawing.Color.Blue
+        Me.SourceCode_LinkLabel1.Location = New System.Drawing.Point(416, 268)
+        Me.SourceCode_LinkLabel1.Name = "SourceCode_LinkLabel1"
+        Me.SourceCode_LinkLabel1.Size = New System.Drawing.Size(84, 15)
+        Me.SourceCode_LinkLabel1.TabIndex = 22
+        Me.SourceCode_LinkLabel1.TabStop = True
+        Me.SourceCode_LinkLabel1.Text = "Source code"
+        '
         'OptionsScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -108,8 +108,8 @@ Partial Class OptionsScreen
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(503, 298)
+        Me.Controls.Add(Me.SourceCode_LinkLabel1)
         Me.Controls.Add(Me.Exit_Button2)
-        Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -127,6 +127,6 @@ Partial Class OptionsScreen
     Friend WithEvents Button1 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents Exit_Button2 As Button
+    Friend WithEvents SourceCode_LinkLabel1 As LinkLabel
 End Class
