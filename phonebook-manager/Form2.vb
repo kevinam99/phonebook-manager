@@ -21,4 +21,8 @@
         Me.Hide()
         Create_Contact.Show()
     End Sub
+
+    Private Sub Exit_Button2_Click(sender As Object, e As EventArgs) Handles Exit_Button2.Click
+        Me.Close()
+    End Sub
 End Class
