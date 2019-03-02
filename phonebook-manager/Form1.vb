@@ -23,7 +23,7 @@
     Private Sub Timer1_Tick_1(sender As Object, e As EventArgs) Handles Timer1.Tick
         ProgressBar1.Increment(5)
         If ProgressBar1.Value = 100 Then
-            Me.Close()
+            Me.Hide()
             OptionsScreen.Show()
             Timer1.Enabled = False
         End If
