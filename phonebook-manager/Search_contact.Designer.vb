@@ -29,25 +29,26 @@ Partial Class Search_contact
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.CreatName_Label1 = New System.Windows.Forms.Label()
         Me.SourceCode_LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'SearchHeading_Label1
         '
         Me.SearchHeading_Label1.AutoSize = True
         Me.SearchHeading_Label1.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SearchHeading_Label1.Location = New System.Drawing.Point(183, 9)
+        Me.SearchHeading_Label1.Location = New System.Drawing.Point(164, 9)
         Me.SearchHeading_Label1.Name = "SearchHeading_Label1"
-        Me.SearchHeading_Label1.Size = New System.Drawing.Size(203, 36)
+        Me.SearchHeading_Label1.Size = New System.Drawing.Size(342, 36)
         Me.SearchHeading_Label1.TabIndex = 1
-        Me.SearchHeading_Label1.Text = "Search a contact"
+        Me.SearchHeading_Label1.Text = "Search and update a contact"
         Me.SearchHeading_Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Exit_Button2
         '
         Me.Exit_Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Exit_Button2.Location = New System.Drawing.Point(385, 184)
+        Me.Exit_Button2.Location = New System.Drawing.Point(416, 184)
         Me.Exit_Button2.Name = "Exit_Button2"
-        Me.Exit_Button2.Size = New System.Drawing.Size(121, 33)
+        Me.Exit_Button2.Size = New System.Drawing.Size(90, 33)
         Me.Exit_Button2.TabIndex = 13
         Me.Exit_Button2.Text = "Exit"
         Me.Exit_Button2.UseVisualStyleBackColor = True
@@ -55,7 +56,7 @@ Partial Class Search_contact
         'Search_Button1
         '
         Me.Search_Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Search_Button1.Location = New System.Drawing.Point(250, 184)
+        Me.Search_Button1.Location = New System.Drawing.Point(92, 184)
         Me.Search_Button1.Name = "Search_Button1"
         Me.Search_Button1.Size = New System.Drawing.Size(129, 33)
         Me.Search_Button1.TabIndex = 12
@@ -65,7 +66,7 @@ Partial Class Search_contact
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(250, 106)
+        Me.TextBox1.Location = New System.Drawing.Point(250, 76)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(256, 26)
         Me.TextBox1.TabIndex = 11
@@ -74,7 +75,7 @@ Partial Class Search_contact
         '
         Me.CreatName_Label1.AutoSize = True
         Me.CreatName_Label1.Font = New System.Drawing.Font("Constantia", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CreatName_Label1.Location = New System.Drawing.Point(87, 106)
+        Me.CreatName_Label1.Location = New System.Drawing.Point(87, 76)
         Me.CreatName_Label1.Name = "CreatName_Label1"
         Me.CreatName_Label1.Size = New System.Drawing.Size(66, 26)
         Me.CreatName_Label1.TabIndex = 10
@@ -93,12 +94,23 @@ Partial Class Search_contact
         Me.SourceCode_LinkLabel1.TabStop = True
         Me.SourceCode_LinkLabel1.Text = "Source code"
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(241, 184)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(149, 33)
+        Me.Button1.TabIndex = 15
+        Me.Button1.Text = "Search and update"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Search_contact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(616, 289)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.SourceCode_LinkLabel1)
         Me.Controls.Add(Me.Exit_Button2)
         Me.Controls.Add(Me.Search_Button1)
@@ -120,4 +132,5 @@ Partial Class Search_contact
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents CreatName_Label1 As Label
     Friend WithEvents SourceCode_LinkLabel1 As LinkLabel
+    Friend WithEvents Button1 As Button
 End Class
