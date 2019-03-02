@@ -18,4 +18,17 @@
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles AvailableGitHub.Click
 
     End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs)
+
+
+    End Sub
+
+    Private Sub Timer1_Tick_1(sender As Object, e As EventArgs) Handles Timer1.Tick
+        ProgressBar1.Increment(5)
+        If ProgressBar1.Value = 100 Then
+            form2.show()
+            Me.Hide()
+        End If
+    End Sub
 End Class
