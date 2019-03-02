@@ -21,7 +21,7 @@
     End Sub
 
     Private Sub Exit_Button2_Click(sender As Object, e As EventArgs) Handles Exit_Button2.Click
-        If MsgBox("Do you really want to exit?", MsgBoxStyle.OkCancel) = MsgBoxStyle.OkCancel Then
+        If MsgBox("Are you sure you want to exit?", MsgBoxStyle.OkCancel) = MsgBoxStyle.OkCancel Then
             Me.Close()
             OptionsScreen.Show()
         Else
