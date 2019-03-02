@@ -10,4 +10,18 @@
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
     End Sub
+
+    Private Sub Create_Contact_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Save_Button1.Click
+        Me.Close()
+        OptionsScreen.Show()
+    End Sub
+
+    Private Sub Exit_Button2_Click(sender As Object, e As EventArgs) Handles Exit_Button2.Click
+        Me.Close()
+        OptionsScreen.Show()
+    End Sub
 End Class
