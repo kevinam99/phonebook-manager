@@ -45,9 +45,9 @@ Partial Class Search_contact
         'Exit_Button2
         '
         Me.Exit_Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Exit_Button2.Location = New System.Drawing.Point(387, 216)
+        Me.Exit_Button2.Location = New System.Drawing.Point(385, 184)
         Me.Exit_Button2.Name = "Exit_Button2"
-        Me.Exit_Button2.Size = New System.Drawing.Size(119, 33)
+        Me.Exit_Button2.Size = New System.Drawing.Size(121, 33)
         Me.Exit_Button2.TabIndex = 13
         Me.Exit_Button2.Text = "Exit"
         Me.Exit_Button2.UseVisualStyleBackColor = True
@@ -55,9 +55,9 @@ Partial Class Search_contact
         'Search_Button1
         '
         Me.Search_Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Search_Button1.Location = New System.Drawing.Point(250, 216)
+        Me.Search_Button1.Location = New System.Drawing.Point(250, 184)
         Me.Search_Button1.Name = "Search_Button1"
-        Me.Search_Button1.Size = New System.Drawing.Size(119, 33)
+        Me.Search_Button1.Size = New System.Drawing.Size(129, 33)
         Me.Search_Button1.TabIndex = 12
         Me.Search_Button1.Text = "Search"
         Me.Search_Button1.UseVisualStyleBackColor = True
@@ -86,7 +86,7 @@ Partial Class Search_contact
         Me.SourceCode_LinkLabel1.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SourceCode_LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline
         Me.SourceCode_LinkLabel1.LinkColor = System.Drawing.Color.Blue
-        Me.SourceCode_LinkLabel1.Location = New System.Drawing.Point(520, 359)
+        Me.SourceCode_LinkLabel1.Location = New System.Drawing.Point(520, 265)
         Me.SourceCode_LinkLabel1.Name = "SourceCode_LinkLabel1"
         Me.SourceCode_LinkLabel1.Size = New System.Drawing.Size(84, 15)
         Me.SourceCode_LinkLabel1.TabIndex = 14
@@ -97,7 +97,7 @@ Partial Class Search_contact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(616, 383)
+        Me.ClientSize = New System.Drawing.Size(616, 289)
         Me.ControlBox = False
         Me.Controls.Add(Me.SourceCode_LinkLabel1)
         Me.Controls.Add(Me.Exit_Button2)
