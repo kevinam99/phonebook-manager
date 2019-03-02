@@ -34,6 +34,7 @@ Partial Class OptionsScreen
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(146, 9)
         Me.Label1.Name = "Label1"
@@ -44,61 +45,67 @@ Partial Class OptionsScreen
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Snow
         Me.Button1.Font = New System.Drawing.Font("Bookman Old Style", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(116, 76)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(263, 30)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Create a new contact"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Bookman Old Style", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(116, 132)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(263, 30)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Search and update a contact"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button4
         '
+        Me.Button4.BackColor = System.Drawing.Color.Snow
         Me.Button4.Font = New System.Drawing.Font("Bookman Old Style", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(116, 191)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(263, 30)
         Me.Button4.TabIndex = 4
         Me.Button4.Text = "Delete a contact"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel1.Font = New System.Drawing.Font("Consolas", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline
-        Me.LinkLabel1.LinkColor = System.Drawing.Color.Blue
-        Me.LinkLabel1.Location = New System.Drawing.Point(413, 273)
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.Goldenrod
+        Me.LinkLabel1.Location = New System.Drawing.Point(407, 271)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(84, 15)
+        Me.LinkLabel1.Size = New System.Drawing.Size(96, 18)
         Me.LinkLabel1.TabIndex = 5
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Source code"
         '
         'Exit_Button2
         '
+        Me.Exit_Button2.BackColor = System.Drawing.Color.Transparent
         Me.Exit_Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Exit_Button2.Location = New System.Drawing.Point(302, 260)
         Me.Exit_Button2.Name = "Exit_Button2"
         Me.Exit_Button2.Size = New System.Drawing.Size(77, 28)
         Me.Exit_Button2.TabIndex = 14
         Me.Exit_Button2.Text = "Exit"
-        Me.Exit_Button2.UseVisualStyleBackColor = True
+        Me.Exit_Button2.UseVisualStyleBackColor = False
         '
         'OptionsScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(503, 298)
         Me.Controls.Add(Me.Exit_Button2)
         Me.Controls.Add(Me.LinkLabel1)

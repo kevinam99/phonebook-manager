@@ -30,4 +30,8 @@
         Me.Hide()
         Delete_Contact.Show()
     End Sub
+
+    Private Sub OptionsScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
