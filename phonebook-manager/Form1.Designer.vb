@@ -48,6 +48,7 @@ Partial Class SplashScreen
         'Subtitle
         '
         Me.Subtitle.AutoSize = True
+        Me.Subtitle.BackColor = System.Drawing.Color.Transparent
         Me.Subtitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Subtitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Subtitle.Location = New System.Drawing.Point(431, 311)
@@ -61,6 +62,7 @@ Partial Class SplashScreen
         '
         Me.GitHub.ActiveLinkColor = System.Drawing.Color.Black
         Me.GitHub.AutoSize = True
+        Me.GitHub.BackColor = System.Drawing.Color.Transparent
         Me.GitHub.CausesValidation = False
         Me.GitHub.Cursor = System.Windows.Forms.Cursors.WaitCursor
         Me.GitHub.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -77,7 +79,7 @@ Partial Class SplashScreen
         'AvailableGitHub
         '
         Me.AvailableGitHub.AutoSize = True
-        Me.AvailableGitHub.BackColor = System.Drawing.SystemColors.Control
+        Me.AvailableGitHub.BackColor = System.Drawing.Color.Transparent
         Me.AvailableGitHub.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AvailableGitHub.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.AvailableGitHub.Location = New System.Drawing.Point(562, 354)
@@ -105,6 +107,7 @@ Partial Class SplashScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CausesValidation = False
         Me.ClientSize = New System.Drawing.Size(844, 520)
