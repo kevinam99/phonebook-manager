@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.phonebook_manager.Phonebook
+            Me.MainForm = Global.phonebook_manager.SplashScreen
         End Sub
     End Class
 End Namespace
