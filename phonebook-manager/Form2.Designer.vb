@@ -47,7 +47,7 @@ Partial Class OptionsScreen
         '
         Me.Button1.BackColor = System.Drawing.Color.Snow
         Me.Button1.Font = New System.Drawing.Font("Bookman Old Style", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(116, 76)
+        Me.Button1.Location = New System.Drawing.Point(116, 65)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(263, 30)
         Me.Button1.TabIndex = 1
@@ -56,9 +56,9 @@ Partial Class OptionsScreen
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.White
+        Me.Button2.BackColor = System.Drawing.Color.Snow
         Me.Button2.Font = New System.Drawing.Font("Bookman Old Style", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(116, 132)
+        Me.Button2.Location = New System.Drawing.Point(116, 113)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(263, 30)
         Me.Button2.TabIndex = 2
@@ -69,7 +69,7 @@ Partial Class OptionsScreen
         '
         Me.Button4.BackColor = System.Drawing.Color.Snow
         Me.Button4.Font = New System.Drawing.Font("Bookman Old Style", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(116, 191)
+        Me.Button4.Location = New System.Drawing.Point(116, 159)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(263, 30)
         Me.Button4.TabIndex = 4
@@ -105,6 +105,7 @@ Partial Class OptionsScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(503, 298)
         Me.Controls.Add(Me.Exit_Button2)
