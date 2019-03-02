@@ -25,4 +25,9 @@
     Private Sub Exit_Button2_Click(sender As Object, e As EventArgs) Handles Exit_Button2.Click
         Me.Close()
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Me.Hide()
+        Delete_Contact.Show()
+    End Sub
 End Class
