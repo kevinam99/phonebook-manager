@@ -44,7 +44,6 @@ Partial Class SplashScreen
         Me.Welcome.Size = New System.Drawing.Size(699, 44)
         Me.Welcome.TabIndex = 0
         Me.Welcome.Text = "Welcome to the Phonebook Manager"
-        Me.Welcome.UseWaitCursor = True
         '
         'Subtitle
         '
@@ -57,7 +56,6 @@ Partial Class SplashScreen
         Me.Subtitle.TabIndex = 1
         Me.Subtitle.Text = "- A FOSS project by Kevin Mathew"
         Me.Subtitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Subtitle.UseWaitCursor = True
         '
         'GitHub
         '
@@ -65,17 +63,16 @@ Partial Class SplashScreen
         Me.GitHub.AutoSize = True
         Me.GitHub.CausesValidation = False
         Me.GitHub.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.GitHub.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GitHub.Font = New System.Drawing.Font("Palatino Linotype", 15.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GitHub.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GitHub.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
+        Me.GitHub.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline
         Me.GitHub.LinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.GitHub.Location = New System.Drawing.Point(690, 354)
         Me.GitHub.Name = "GitHub"
-        Me.GitHub.Size = New System.Drawing.Size(84, 28)
+        Me.GitHub.Size = New System.Drawing.Size(79, 28)
         Me.GitHub.TabIndex = 2
         Me.GitHub.TabStop = True
         Me.GitHub.Text = "GitHub"
-        Me.GitHub.UseWaitCursor = True
         '
         'AvailableGitHub
         '
@@ -89,7 +86,6 @@ Partial Class SplashScreen
         Me.AvailableGitHub.TabIndex = 3
         Me.AvailableGitHub.Text = "Available on"
         Me.AvailableGitHub.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.AvailableGitHub.UseWaitCursor = True
         '
         'ProgressBar1
         '
@@ -100,7 +96,6 @@ Partial Class SplashScreen
         Me.ProgressBar1.Step = 7
         Me.ProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.ProgressBar1.TabIndex = 4
-        Me.ProgressBar1.UseWaitCursor = True
         '
         'Timer1
         '
@@ -125,7 +120,6 @@ Partial Class SplashScreen
         Me.Name = "SplashScreen"
         Me.ShowInTaskbar = False
         Me.Text = "Phonebook Manager"
-        Me.UseWaitCursor = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

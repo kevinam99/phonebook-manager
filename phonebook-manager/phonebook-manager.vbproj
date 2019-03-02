@@ -112,6 +112,12 @@
     <Compile Include="Search_contact.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Update_Contact.Designer.vb">
+      <DependentUpon>Update_Contact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Contact.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Create_Contact.resx">
@@ -131,6 +137,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Search_contact.resx">
       <DependentUpon>Search_contact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Contact.dje-NE.resx">
+      <DependentUpon>Update_Contact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Contact.en.resx">
+      <DependentUpon>Update_Contact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Contact.resx">
+      <DependentUpon>Update_Contact.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
