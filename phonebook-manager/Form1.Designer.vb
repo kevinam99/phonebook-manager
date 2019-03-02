@@ -22,11 +22,14 @@ Partial Class Phonebook
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Phonebook))
         Me.Welcome = New System.Windows.Forms.Label()
         Me.Subtitle = New System.Windows.Forms.Label()
         Me.GitHub = New System.Windows.Forms.LinkLabel()
         Me.AvailableGitHub = New System.Windows.Forms.Label()
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Welcome
@@ -84,6 +87,19 @@ Partial Class Phonebook
         Me.AvailableGitHub.Text = "Available on"
         Me.AvailableGitHub.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(179, 409)
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(377, 10)
+        Me.ProgressBar1.Step = 7
+        Me.ProgressBar1.TabIndex = 4
+        Me.ProgressBar1.UseWaitCursor = True
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        '
         'Phonebook
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
@@ -91,13 +107,14 @@ Partial Class Phonebook
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CausesValidation = False
         Me.ClientSize = New System.Drawing.Size(844, 520)
+        Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.AvailableGitHub)
         Me.Controls.Add(Me.GitHub)
         Me.Controls.Add(Me.Subtitle)
         Me.Controls.Add(Me.Welcome)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.SystemColors.Control
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Phonebook"
         Me.Text = "Phonebook Manager"
@@ -110,4 +127,6 @@ Partial Class Phonebook
     Friend WithEvents Subtitle As Label
     Friend WithEvents GitHub As LinkLabel
     Friend WithEvents AvailableGitHub As Label
+    Friend WithEvents ProgressBar1 As ProgressBar
+    Friend WithEvents Timer1 As Timer
 End Class
