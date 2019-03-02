@@ -38,6 +38,7 @@ Partial Class Create_Contact
         'CreateContactHeader_Label1
         '
         Me.CreateContactHeader_Label1.AutoSize = True
+        Me.CreateContactHeader_Label1.BackColor = System.Drawing.Color.Transparent
         Me.CreateContactHeader_Label1.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CreateContactHeader_Label1.Location = New System.Drawing.Point(147, 9)
         Me.CreateContactHeader_Label1.Name = "CreateContactHeader_Label1"
@@ -59,6 +60,7 @@ Partial Class Create_Contact
         'CreatName_Label1
         '
         Me.CreatName_Label1.AutoSize = True
+        Me.CreatName_Label1.BackColor = System.Drawing.Color.Transparent
         Me.CreatName_Label1.Font = New System.Drawing.Font("Constantia", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CreatName_Label1.Location = New System.Drawing.Point(48, 61)
         Me.CreatName_Label1.Name = "CreatName_Label1"
@@ -77,6 +79,7 @@ Partial Class Create_Contact
         'Email_Label1
         '
         Me.Email_Label1.AutoSize = True
+        Me.Email_Label1.BackColor = System.Drawing.Color.Transparent
         Me.Email_Label1.Font = New System.Drawing.Font("Constantia", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Email_Label1.Location = New System.Drawing.Point(48, 177)
         Me.Email_Label1.Name = "Email_Label1"
@@ -87,6 +90,7 @@ Partial Class Create_Contact
         'ContactNumber_Label2
         '
         Me.ContactNumber_Label2.AutoSize = True
+        Me.ContactNumber_Label2.BackColor = System.Drawing.Color.Transparent
         Me.ContactNumber_Label2.Font = New System.Drawing.Font("Constantia", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ContactNumber_Label2.Location = New System.Drawing.Point(48, 120)
         Me.ContactNumber_Label2.Name = "ContactNumber_Label2"
@@ -134,6 +138,7 @@ Partial Class Create_Contact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(569, 311)
         Me.ControlBox = False
         Me.Controls.Add(Me.Exit_Button2)
@@ -148,6 +153,7 @@ Partial Class Create_Contact
         Me.Controls.Add(Me.CreateContactHeader_Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Create_Contact"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Phonebook Manager"
         Me.ResumeLayout(False)
         Me.PerformLayout()
