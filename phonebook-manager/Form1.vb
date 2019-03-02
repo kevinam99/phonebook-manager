@@ -1,4 +1,4 @@
-﻿Public Class Phonebook
+﻿Public Class SplashScreen
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
@@ -19,16 +19,13 @@
 
     End Sub
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs)
-
-
-    End Sub
 
     Private Sub Timer1_Tick_1(sender As Object, e As EventArgs) Handles Timer1.Tick
         ProgressBar1.Increment(5)
         If ProgressBar1.Value = 100 Then
-            form2.show()
-            Me.Hide()
+            Me.Close()
+            OptionsScreen.Show()
+            Timer1.Enabled = False
         End If
     End Sub
 End Class

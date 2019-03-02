@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Phonebook
+Partial Class SplashScreen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,7 +23,7 @@ Partial Class Phonebook
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Phonebook))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SplashScreen))
         Me.Welcome = New System.Windows.Forms.Label()
         Me.Subtitle = New System.Windows.Forms.Label()
         Me.GitHub = New System.Windows.Forms.LinkLabel()
@@ -100,7 +100,7 @@ Partial Class Phonebook
         '
         Me.Timer1.Enabled = True
         '
-        'Phonebook
+        'SplashScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -116,7 +116,7 @@ Partial Class Phonebook
         Me.ForeColor = System.Drawing.SystemColors.Control
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Phonebook"
+        Me.Name = "SplashScreen"
         Me.Text = "Phonebook Manager"
         Me.ResumeLayout(False)
         Me.PerformLayout()
