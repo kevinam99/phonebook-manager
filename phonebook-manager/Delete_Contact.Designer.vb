@@ -45,6 +45,7 @@ Partial Class Delete_Contact
         'SourceCode_LinkLabel1
         '
         Me.SourceCode_LinkLabel1.AutoSize = True
+        Me.SourceCode_LinkLabel1.BackColor = System.Drawing.Color.Transparent
         Me.SourceCode_LinkLabel1.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SourceCode_LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline
         Me.SourceCode_LinkLabel1.LinkColor = System.Drawing.Color.Blue
@@ -96,6 +97,7 @@ Partial Class Delete_Contact
         'DeleteHeading_Label1
         '
         Me.DeleteHeading_Label1.AutoSize = True
+        Me.DeleteHeading_Label1.BackColor = System.Drawing.Color.Transparent
         Me.DeleteHeading_Label1.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DeleteHeading_Label1.Location = New System.Drawing.Point(193, 9)
         Me.DeleteHeading_Label1.Name = "DeleteHeading_Label1"
@@ -108,6 +110,8 @@ Partial Class Delete_Contact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(565, 296)
         Me.ControlBox = False
         Me.Controls.Add(Me.Button1)
@@ -119,6 +123,7 @@ Partial Class Delete_Contact
         Me.Controls.Add(Me.DeleteHeading_Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Delete_Contact"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Phonebook Manager"
         Me.ResumeLayout(False)
         Me.PerformLayout()
