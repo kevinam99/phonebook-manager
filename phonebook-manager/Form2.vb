@@ -8,5 +8,7 @@
 
     End Sub
 
-
+    Private Sub OptionsScreen_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        SplashScreen.Close()
+    End Sub
 End Class
