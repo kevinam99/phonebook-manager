@@ -28,6 +28,7 @@ Partial Class Search_contact
         Me.Search_Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.CreatName_Label1 = New System.Windows.Forms.Label()
+        Me.SourceCode_LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.SuspendLayout()
         '
         'SearchHeading_Label1
@@ -79,12 +80,26 @@ Partial Class Search_contact
         Me.CreatName_Label1.TabIndex = 10
         Me.CreatName_Label1.Text = "Name"
         '
+        'SourceCode_LinkLabel1
+        '
+        Me.SourceCode_LinkLabel1.AutoSize = True
+        Me.SourceCode_LinkLabel1.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SourceCode_LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline
+        Me.SourceCode_LinkLabel1.LinkColor = System.Drawing.Color.Blue
+        Me.SourceCode_LinkLabel1.Location = New System.Drawing.Point(520, 359)
+        Me.SourceCode_LinkLabel1.Name = "SourceCode_LinkLabel1"
+        Me.SourceCode_LinkLabel1.Size = New System.Drawing.Size(84, 15)
+        Me.SourceCode_LinkLabel1.TabIndex = 14
+        Me.SourceCode_LinkLabel1.TabStop = True
+        Me.SourceCode_LinkLabel1.Text = "Source code"
+        '
         'Search_contact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(616, 383)
         Me.ControlBox = False
+        Me.Controls.Add(Me.SourceCode_LinkLabel1)
         Me.Controls.Add(Me.Exit_Button2)
         Me.Controls.Add(Me.Search_Button1)
         Me.Controls.Add(Me.TextBox1)
@@ -104,4 +119,5 @@ Partial Class Search_contact
     Friend WithEvents Search_Button1 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents CreatName_Label1 As Label
+    Friend WithEvents SourceCode_LinkLabel1 As LinkLabel
 End Class
