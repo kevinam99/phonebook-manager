@@ -123,6 +123,7 @@ Partial Class Search_contact
         Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Search_contact"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Phonebook Manager"
         Me.ResumeLayout(False)
         Me.PerformLayout()
