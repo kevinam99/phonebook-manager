@@ -40,7 +40,7 @@ Partial Class Create_Contact
         Me.CreateContactHeader_Label1.AutoSize = True
         Me.CreateContactHeader_Label1.BackColor = System.Drawing.Color.Transparent
         Me.CreateContactHeader_Label1.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CreateContactHeader_Label1.Location = New System.Drawing.Point(147, 9)
+        Me.CreateContactHeader_Label1.Location = New System.Drawing.Point(158, 9)
         Me.CreateContactHeader_Label1.Name = "CreateContactHeader_Label1"
         Me.CreateContactHeader_Label1.Size = New System.Drawing.Size(256, 36)
         Me.CreateContactHeader_Label1.TabIndex = 0
@@ -49,6 +49,7 @@ Partial Class Create_Contact
         'SourceCode_LinkLabel1
         '
         Me.SourceCode_LinkLabel1.AutoSize = True
+        Me.SourceCode_LinkLabel1.BackColor = System.Drawing.Color.Transparent
         Me.SourceCode_LinkLabel1.Font = New System.Drawing.Font("Consolas", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SourceCode_LinkLabel1.Location = New System.Drawing.Point(484, 289)
         Me.SourceCode_LinkLabel1.Name = "SourceCode_LinkLabel1"
@@ -138,6 +139,7 @@ Partial Class Create_Contact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(569, 311)
         Me.ControlBox = False
