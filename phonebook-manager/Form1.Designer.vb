@@ -91,7 +91,7 @@ Partial Class SplashScreen
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.BackColor = System.Drawing.SystemColors.Control
+        Me.ProgressBar1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ProgressBar1.Location = New System.Drawing.Point(267, 412)
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(317, 10)
@@ -123,6 +123,7 @@ Partial Class SplashScreen
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "SplashScreen"
         Me.ShowInTaskbar = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Phonebook Manager"
         Me.ResumeLayout(False)
         Me.PerformLayout()
