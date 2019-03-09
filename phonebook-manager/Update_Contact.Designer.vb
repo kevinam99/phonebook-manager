@@ -154,7 +154,7 @@ Partial Class Update_Contact
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Update_Contact"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Update_Contact"
+        Me.Text = "Phonebook Manager"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
