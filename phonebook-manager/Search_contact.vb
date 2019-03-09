@@ -25,4 +25,9 @@
         Process.Start("https://github.com/kevinam99/phonebook-manager")
 
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Hide()
+        Update_Contact.Show()
+    End Sub
 End Class
