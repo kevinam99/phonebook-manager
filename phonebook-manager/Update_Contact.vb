@@ -6,4 +6,8 @@
     Private Sub SourceCode_LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles SourceCode_LinkLabel1.LinkClicked
         Process.Start("https://github.com/kevinam99/phonebook-manager")
     End Sub
+
+    Private Sub Exit_Button2_Click(sender As Object, e As EventArgs) Handles Exit_Button2.Click
+
+    End Sub
 End Class
