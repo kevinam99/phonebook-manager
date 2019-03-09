@@ -8,6 +8,12 @@
     End Sub
 
     Private Sub Exit_Button2_Click(sender As Object, e As EventArgs) Handles Exit_Button2.Click
+        Me.Close()
+        Search_contact.Show()
+    End Sub
 
+    Private Sub Save_Button1_Click(sender As Object, e As EventArgs) Handles Save_Button1.Click
+        Me.Close()
+        OptionsScreen.Show()
     End Sub
 End Class
