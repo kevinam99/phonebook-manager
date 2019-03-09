@@ -86,7 +86,7 @@ Partial Class Update_Contact
         Me.UpdateNumber_Label2.AutoSize = True
         Me.UpdateNumber_Label2.BackColor = System.Drawing.Color.Transparent
         Me.UpdateNumber_Label2.Font = New System.Drawing.Font("Constantia", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UpdateNumber_Label2.Location = New System.Drawing.Point(47, 134)
+        Me.UpdateNumber_Label2.Location = New System.Drawing.Point(47, 135)
         Me.UpdateNumber_Label2.Name = "UpdateNumber_Label2"
         Me.UpdateNumber_Label2.Size = New System.Drawing.Size(159, 26)
         Me.UpdateNumber_Label2.TabIndex = 9
@@ -139,6 +139,8 @@ Partial Class Update_Contact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(597, 313)
         Me.ControlBox = False
         Me.Controls.Add(Me.Exit_Button2)
@@ -151,6 +153,7 @@ Partial Class Update_Contact
         Me.Controls.Add(Me.UpdateName_TextBox1)
         Me.Controls.Add(Me.UpdateName_Label1)
         Me.Controls.Add(Me.SearchHeading_Label1)
+        Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Update_Contact"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
