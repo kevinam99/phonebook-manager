@@ -22,6 +22,7 @@ Partial Class Update_Contact
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Update_Contact))
         Me.SearchHeading_Label1 = New System.Windows.Forms.Label()
         Me.UpdateName_TextBox1 = New System.Windows.Forms.TextBox()
         Me.UpdateName_Label1 = New System.Windows.Forms.Label()
@@ -139,6 +140,7 @@ Partial Class Update_Contact
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(597, 313)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Exit_Button2)
         Me.Controls.Add(Me.Save_Button1)
         Me.Controls.Add(Me.SourceCode_LinkLabel1)
@@ -149,7 +151,9 @@ Partial Class Update_Contact
         Me.Controls.Add(Me.UpdateName_TextBox1)
         Me.Controls.Add(Me.UpdateName_Label1)
         Me.Controls.Add(Me.SearchHeading_Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Update_Contact"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Update_Contact"
         Me.ResumeLayout(False)
         Me.PerformLayout()
